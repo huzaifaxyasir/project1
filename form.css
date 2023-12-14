@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkred;
+}
+
+main{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    background-color: #ba9e22; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+div {
+    background-color: darkred; 
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #9e2d2d;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-bottom: 5px;
+}
+
+.Gender {
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: darksalmon; 
+}
